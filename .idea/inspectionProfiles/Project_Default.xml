@@ -1,0 +1,109 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlFormInputWithoutLabel" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HtmlUnknownAnchorTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="37">
+            <item index="0" class="java.lang.String" itemvalue="md-column" />
+            <item index="1" class="java.lang.String" itemvalue="md-row" />
+            <item index="2" class="java.lang.String" itemvalue="md-cell" />
+            <item index="3" class="java.lang.String" itemvalue="md-table" />
+            <item index="4" class="java.lang.String" itemvalue="md-row" />
+            <item index="5" class="java.lang.String" itemvalue="md-head" />
+            <item index="6" class="java.lang.String" itemvalue="md-order" />
+            <item index="7" class="java.lang.String" itemvalue="md-row-select" />
+            <item index="8" class="java.lang.String" itemvalue="md-order-by" />
+            <item index="9" class="java.lang.String" itemvalue="md-body" />
+            <item index="10" class="java.lang.String" itemvalue="md-select" />
+            <item index="11" class="java.lang.String" itemvalue="md-select-id" />
+            <item index="12" class="java.lang.String" itemvalue="md-numeric" />
+            <item index="13" class="java.lang.String" itemvalue="ng-model" />
+            <item index="14" class="java.lang.String" itemvalue="md-on-reorder" />
+            <item index="15" class="java.lang.String" itemvalue="md-progress" />
+            <item index="16" class="java.lang.String" itemvalue="md-auto-select" />
+            <item index="17" class="java.lang.String" itemvalue="ng-repeat" />
+            <item index="18" class="java.lang.String" itemvalue="layout" />
+            <item index="19" class="java.lang.String" itemvalue="flex" />
+            <item index="20" class="java.lang.String" itemvalue="flex-auto" />
+            <item index="21" class="java.lang.String" itemvalue="ng-show" />
+            <item index="22" class="java.lang.String" itemvalue="layout-align" />
+            <item index="23" class="java.lang.String" itemvalue="ng-if" />
+            <item index="24" class="java.lang.String" itemvalue="multiple" />
+            <item index="25" class="java.lang.String" itemvalue="ng-switch" />
+            <item index="26" class="java.lang.String" itemvalue="layout-sm" />
+            <item index="27" class="java.lang.String" itemvalue="layout-lg" />
+            <item index="28" class="java.lang.String" itemvalue="layout-margin" />
+            <item index="29" class="java.lang.String" itemvalue="layout-fill" />
+            <item index="30" class="java.lang.String" itemvalue="hide" />
+            <item index="31" class="java.lang.String" itemvalue="show-gt-md" />
+            <item index="32" class="java.lang.String" itemvalue="ng-bind-html" />
+            <item index="33" class="java.lang.String" itemvalue="ng-switch-default" />
+            <item index="34" class="java.lang.String" itemvalue="ng-switch-when" />
+            <item index="35" class="java.lang.String" itemvalue="ng-cloak" />
+            <item index="36" class="java.lang.String" itemvalue="ng-click" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="42">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="md-toolbar" />
+            <item index="7" class="java.lang.String" itemvalue="md-button" />
+            <item index="8" class="java.lang.String" itemvalue="md-menu" />
+            <item index="9" class="java.lang.String" itemvalue="md-menu-content" />
+            <item index="10" class="java.lang.String" itemvalue="md-menu-item" />
+            <item index="11" class="java.lang.String" itemvalue="ng-md-icon" />
+            <item index="12" class="java.lang.String" itemvalue="md-content" />
+            <item index="13" class="java.lang.String" itemvalue="md-sidenav" />
+            <item index="14" class="java.lang.String" itemvalue="md-table-container" />
+            <item index="15" class="java.lang.String" itemvalue="md-tabs" />
+            <item index="16" class="java.lang.String" itemvalue="md-tab" />
+            <item index="17" class="java.lang.String" itemvalue="md-card" />
+            <item index="18" class="java.lang.String" itemvalue="md-card-content" />
+            <item index="19" class="java.lang.String" itemvalue="md-progress-linear" />
+            <item index="20" class="java.lang.String" itemvalue="md-input-container" />
+            <item index="21" class="java.lang.String" itemvalue="md-card-title" />
+            <item index="22" class="java.lang.String" itemvalue="md-card-title-text" />
+            <item index="23" class="java.lang.String" itemvalue="md-card-actions" />
+            <item index="24" class="java.lang.String" itemvalue="md-table-pagination" />
+            <item index="25" class="java.lang.String" itemvalue="md-select" />
+            <item index="26" class="java.lang.String" itemvalue="md-option" />
+            <item index="27" class="java.lang.String" itemvalue="md-checkbox" />
+            <item index="28" class="java.lang.String" itemvalue="md-dialog" />
+            <item index="29" class="java.lang.String" itemvalue="md-dialog-content" />
+            <item index="30" class="java.lang.String" itemvalue="md-dialog-actions" />
+            <item index="31" class="java.lang.String" itemvalue="md-grid-list" />
+            <item index="32" class="java.lang.String" itemvalue="md-grid-tile" />
+            <item index="33" class="java.lang.String" itemvalue="md-list" />
+            <item index="34" class="java.lang.String" itemvalue="md-list-item" />
+            <item index="35" class="java.lang.String" itemvalue="md-bottom-sheet" />
+            <item index="36" class="java.lang.String" itemvalue="timeline" />
+            <item index="37" class="java.lang.String" itemvalue="md-menu-bar" />
+            <item index="38" class="java.lang.String" itemvalue="md-icon" />
+            <item index="39" class="java.lang.String" itemvalue="md-menu-divider" />
+            <item index="40" class="java.lang.String" itemvalue="md-divider" />
+            <item index="41" class="java.lang.String" itemvalue="dummy" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
