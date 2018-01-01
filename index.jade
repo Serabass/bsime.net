@@ -23,7 +23,7 @@ html(lang="en")
 
     include blocks/info.jade
     include blocks/albums.jade
-    section#full-slide
+    section#full-slide.hidden
       // include ./letters/o.html
       ul(class="banner")
         li(class="active")
@@ -31,7 +31,7 @@ html(lang="en")
         li
       i(class="icon-chevron-thin-left prev")
       i(class="icon-chevron-thin-right next")
-    section#featured
+    section#featured.hidden
       // include ./letters/l.html
       .wrapper
         .blurb
@@ -39,7 +39,7 @@ html(lang="en")
           p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
         .featured
           img(src="assets/img/featured.jpg" alt="Featured")
-    section#three-slide
+    section#three-slide.hidden
       // include ./letters/l.html
       .wrapper
         ul.slider

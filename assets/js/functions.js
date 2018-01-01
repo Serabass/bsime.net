@@ -168,6 +168,66 @@ $(document).ready(function() {
     window.open(this.href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
   });
 
+  var hello = [
+    'Hello',
+    'Салам алейкум',
+    'Привет',
+    'Hi',
+    'Ahlan wa sahlan',
+    'Marhaba',
+    'Hola',
+    'Прывитанне',
+    'Здравейте',
+    'Jo napot',
+    'Chao',
+    'Aloha',
+    'Hallo',
+    'Geia sou',
+    'Гамарджоба',
+    'Shalom',
+    'Selamat',
+    'Godan daginn',
+    'Buenas dias',
+    'Buon giorno',
+    'Ave',
+    'Lab dien, sveiki',
+    'Sveikas',
+    'Guten Tag',
+    'Goddag',
+    'Dzien dobry',
+    'Ola',
+    'Buna',
+    'Здраво',
+    'Dobry den',
+    'Sawatdi',
+    'Merhaba',
+    'Салам алейкум',
+    'Привіт',
+    'Paivaa',
+    'Bonjour',
+    'Namaste',
+    'Zdravo',
+    'Dobry den',
+    'God dag',
+    'Saluton',
+    'Tervist',
+    'Konnichi wa'
+  ];
+
+  $('#hello').mouseover(function () {
+    var interval = setInterval(function () {
+      var el = hello[parseInt(hello.length * Math.random())];
+      $('#hello').html(el);
+    }, 500);
+    $(this).data('interval', interval);
+  })
+    .mouseout(function () {
+      var interval = $(this)
+        .html(hello[0])
+        .data('interval');
+      clearInterval(interval);
+    });
+
   var email = 'me@bsime.net';
   $('#contact a.email')
     .attr('href', 'mailto:' + email)
