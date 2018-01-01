@@ -233,4 +233,8 @@ $(document).ready(function() {
     .attr('href', 'mailto:' + email)
     .html(email)
   ;
+
+  $('#contact-form').submit(function (e) {
+    debugger;
+  });
 });
