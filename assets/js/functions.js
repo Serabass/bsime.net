@@ -239,7 +239,7 @@ $(document).ready(function() {
     var subject = $('[name=subject]', this).val();
     var message = $('[name=message]', this).val();
 
-    if (!message) {
+    if (!message || !email) {
       e.preventDefault();
     }
   });

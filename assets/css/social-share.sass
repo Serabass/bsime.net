@@ -6,11 +6,15 @@
     height: 30px
     line-height: 30px
     margin: 5px
-    background: rgba(0, 0, 0, 0.14)
+    background: rgba(0,0,0,0.04)
     align-items: center
     padding-left: 11px
     border-radius: 4px
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1)
+    transition: background 300ms ease-out, box-shadow 300ms ease-out
     &:hover
       background: rgba(0, 0, 0, 0.2)
+    &:active
+      box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1)
     svg
       margin: auto
