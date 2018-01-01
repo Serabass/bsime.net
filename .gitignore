@@ -42,3 +42,4 @@ assets/css/main.css
 node_modules
 
 .env
+.idea
