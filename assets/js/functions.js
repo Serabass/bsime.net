@@ -235,6 +235,12 @@ $(document).ready(function() {
   ;
 
   $('#contact-form').submit(function (e) {
-    debugger;
+    var email = $('[name=email]', this).val();
+    var subject = $('[name=subject]', this).val();
+    var message = $('[name=message]', this).val();
+
+    if (!message) {
+      e.preventDefault();
+    }
   });
 });
