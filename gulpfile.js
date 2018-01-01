@@ -2,7 +2,7 @@ var gulp = require('gulp'),
   jade = require('gulp-jade'),
   sass = require('gulp-sass'),
   log = require('gulp-log'),
-
+  cssmin = require('gulp-cssmin'),
   // TODO use https://github.com/morris/vinyl-ftp
   ftp = require('vinyl-ftp'),
   gutil = require('gulp-util'),
@@ -37,6 +37,7 @@ gulp.task('templates', function() {
 gulp.task('sass', function() {
   return gulp.src(paths.styles)
     .pipe(sass())
+    .pipe(cssmin())
     .pipe(gulp.dest('./assets/css'));
 });
 
@@ -55,7 +56,6 @@ gulp.task('deploy', ['build'], function() {
     'assets/css/fonts/**',
     'assets/img/**/**',
     'assets/js/**/**',
-    'letters/**/**',
     'index.html'
   ];
 

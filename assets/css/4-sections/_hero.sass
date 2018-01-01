@@ -23,14 +23,22 @@
       line-height: $height
       display: block
       float: left
-      padding: 0 25px
       &:hover
         background-color: rgba(0, 0, 0, 0.15)
+
       a
         text-transform: uppercase
         text-decoration: none
         color: black
+        display: block
+        padding: 0 25px
 
+    @media (max-width: 640px)
+      li
+        padding: 0 10px
+        font-size: 10px
+        a
+          padding: 0 25px
 #about
   @include tile
 

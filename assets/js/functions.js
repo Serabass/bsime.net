@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   function smoothScroll() {
 
-    $('.top-menu a[href^="#"]').click(function(event) {
+    $('.top-menu a[href^="#"], #see-below').click(function(event) {
 
       var target = $($(this).attr('href'));
 
@@ -167,4 +167,10 @@ $(document).ready(function() {
     e.preventDefault();
     window.open(this.href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
   });
+
+  var email = 'me@bsime.net';
+  $('#contact a.email')
+    .attr('href', 'mailto:' + email)
+    .html(email)
+  ;
 });
