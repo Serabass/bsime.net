@@ -50,19 +50,7 @@ html(lang="en")
             img(src="assets/img/three-slide/thumb-4.jpg")
       i.icon-chevron-thin-left.prev
       i.icon-chevron-thin-right.next
-    section#contact
-      // include ./letters/o.html
-      .wrapper
-        .blurb
-          h2 #[strong Say] Hello
-          p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-        form
-          input(type="email" placeholder="Your Email")
-          input(type="text" placeholder="Subject")
-          textarea(placeholder="Message")
-          input(type="submit" value="Send Message")
-      p.copyright &copy; Apollo 2016
-
+    include blocks/contact.jade
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
     script window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
     script(src="assets/js/functions.js")
