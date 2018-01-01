@@ -218,7 +218,8 @@ $(document).ready(function() {
     var interval = setInterval(function () {
       var el = hello[parseInt(hello.length * Math.random())];
       $('#hello').html(el);
-    }, 2000);
+      return arguments.callee;
+    }(), 2000);
     $(this).data('interval', interval);
   })
     .mouseout(function () {
