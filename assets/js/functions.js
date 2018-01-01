@@ -163,4 +163,8 @@ $(document).ready(function() {
 
   threeSlider();
 
+  $('a.social-share-icon').click(function (e) {
+    e.preventDefault();
+    window.open(this.href, '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+  });
 });
