@@ -20,7 +20,7 @@ $(document).ready(function() {
         event.preventDefault();
         $('html, body').animate({
           scrollTop: target.offset().top - 15
-        }, 300);
+        }, 500);
       }
 
       $('.nav').toggleClass('open');
