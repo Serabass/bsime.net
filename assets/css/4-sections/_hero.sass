@@ -1,5 +1,35 @@
+
+.top-menu
+  $height: 30px
+  position: fixed
+  top: 0
+  z-index: 999
+  height: $height
+  font-size: 14px
+  font-family: "Raleway", Helvetica, sans-serif
+  width: 100%
+  background-color: rgba(255, 255, 255, 0.3)
+  transition: background-color 300ms ease-out
+  &:hover
+    background-color: rgba(255, 255, 255, 0.8)
+  ul
+    display: block
+    width: 400px
+    height: $height
+    margin: 0 auto
+    padding: 0 20px
+    li
+      line-height: $height
+      display: block
+      float: left
+      a
+        text-transform: uppercase
+        text-decoration: none
+        color: black
+
 #hero
   @include tile
+
 
   header
     position: absolute
@@ -80,6 +110,10 @@
         font-size: 55px
         &:hover svg path
           fill: black
+
+    p.info
+      margin: 16px
+
     .logo
       width: 55%
       align-self: center

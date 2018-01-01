@@ -9,69 +9,13 @@ html(lang="en")
     link(rel="stylesheet" href="assets/css/main.css")
     script(defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js")
   body
-    section(id="hero")
-      // include ./letters/a.html
-      header
-        .nav-toggle
-          p Menu
-          span
-        ul(class="nav")
-          li #[a(href="#about") About]
-          li #[a(href="#full-slide") Work]
-          li #[a(href="#contact") Contact]
-      .wrapper
-        .welcome
-          h1 #[strong B.S.I.M.E.]
-          p Musician, developer and simply good guy.
-          p
-            .socials
-              a.icon(href="https://soundcloud.com/bsimemusic")
-                i.fab.fa-soundcloud
-              a.icon(href="https://vk.com/bsime")
-                i.fab.fa-vk
-        .logo
-          img(src="assets/img/logo.png" alt="Logo")
-    section.playlist#bsime
-      // include ./letters/p.html
-      .wrapper
-        .camera
-          img(src="assets/img/camera.png" alt="Camera")
-        .blurb
-          h2 My name is #[strong Apollo]
-          iframe(
-            width="100%",
-            height=600,
-            scrolling=no,
-            frameborder=no,
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/277823333&amp;color=%239c9c9c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
-          )
-          p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-          .social
-            a(href="#") #[i(class="icon-facebook")]
-            a(href="#") #[i(class="icon-instagram")]
-            a(href="#") #[i(class="icon-twitter")]
-            a(href="#") #[i(class="icon-pinterest-p")]
-    section.playlist#wtmpm
-      // include ./letters/p.html
-      .wrapper
-        .camera
-          img(src="assets/img/camera.png" alt="Camera")
-        .blurb
-          h2 My name is #[strong Apollo]
-          iframe(
-          width="100%",
-          height=600,
-          scrolling=no,
-          frameborder=no,
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/277823972&amp;color=%239c9c9c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
-          )
-          p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.#[br]#[br]Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-          .social
-            a(href="#") #[i(class="icon-facebook")]
-            a(href="#") #[i(class="icon-instagram")]
-            a(href="#") #[i(class="icon-twitter")]
-            a(href="#") #[i(class="icon-pinterest-p")]
-    section(id="full-slide")
+    .top-menu
+      ul
+        li
+          a(href="") Albums
+    include blocks/info.jade
+    include blocks/albums.jade
+    section#full-slide
       // include ./letters/o.html
       ul(class="banner")
         li(class="active")
@@ -79,7 +23,7 @@ html(lang="en")
         li
       i(class="icon-chevron-thin-left prev")
       i(class="icon-chevron-thin-right next")
-    section(id="featured")
+    section#featured
       // include ./letters/l.html
       .wrapper
         .blurb
@@ -87,21 +31,21 @@ html(lang="en")
           p Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
         .featured
           img(src="assets/img/featured.jpg" alt="Featured")
-    section(id="three-slide")
+    section#three-slide
       // include ./letters/l.html
       .wrapper
-        ul(class="slider")
-          li(class="back")
+        ul.slider
+          li.back
             img(src="assets/img/three-slide/thumb-1.jpg")
-          li(class="current")
+          li.current
             img(src="assets/img/three-slide/thumb-2.jpg")
-          li(class="front")
+          li.front
             img(src="assets/img/three-slide/thumb-3.jpg")
           li
             img(src="assets/img/three-slide/thumb-4.jpg")
-      i(class="icon-chevron-thin-left prev")
-      i(class="icon-chevron-thin-right next")
-    section(id="contact")
+      i.icon-chevron-thin-left.prev
+      i.icon-chevron-thin-right.next
+    section#contact
       // include ./letters/o.html
       .wrapper
         .blurb
@@ -112,7 +56,7 @@ html(lang="en")
           input(type="text" placeholder="Subject")
           textarea(placeholder="Message")
           input(type="submit" value="Send Message")
-      p(class="copyright") &copy; Apollo 2016
+      p.copyright &copy; Apollo 2016
 
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
     script window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')

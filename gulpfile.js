@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 
 var paths = {
   templates: ['index.jade'],
-  styles: ['./assets/css/*.sass']
+  styles: ['./assets/css/**/*.sass']
 };
 
 require('dotenv').config();
@@ -70,6 +70,8 @@ gulp.task('deploy', ['build'], function() {
 });
 
 gulp.task('serve', function () {
+  var tpl = paths.templates.slice();
+  tpl.push('blocks/**/*.jade');
   gulp.watch(paths.templates, ['templates']);
   gulp.watch(paths.styles, ['sass']);
 });
