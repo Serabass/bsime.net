@@ -7,9 +7,9 @@ section#contact
       p If you are the musician or singer, you can contact me for collaboration.
       p You can also write me a message to&nbsp;
         a.email(href="#")
-    form
-      input(type="email" placeholder="your@email.com")
-      input(type="text" placeholder="Subject")
-      textarea(placeholder="Message")
+    form(method="POST" action="/mail.php")
+      input(type="email" name="email" placeholder="your@email.com")
+      input(type="text" name="subject" placeholder="Subject")
+      textarea(placeholder="Message" name="message")
       input(type="submit" value="Send Message")
   p.copyright &copy; BSIME 2018

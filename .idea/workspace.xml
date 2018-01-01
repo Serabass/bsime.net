@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="528a54a1-4533-48f0-a0f6-a2eb831e5c55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/social-share.sass" />
+    <list default="true" id="528a54a1-4533-48f0-a0f6-a2eb831e5c55" name="Default" comment="123">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/env.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/1-tools/_mixins.sass" afterPath="$PROJECT_DIR$/assets/css/1-tools/_mixins.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/3-modules/_letters.sass" afterPath="$PROJECT_DIR$/assets/css/3-modules/_letters.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/4-sections/_about.sass" afterPath="$PROJECT_DIR$/assets/css/4-sections/_about.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.sass" afterPath="$PROJECT_DIR$/assets/css/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/functions.js" afterPath="$PROJECT_DIR$/assets/js/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/albums/bsime.html" afterPath="$PROJECT_DIR$/blocks/albums/bsime.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/albums/bsime.jade" afterPath="$PROJECT_DIR$/blocks/albums/bsime.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/albums/wtmpm.jade" afterPath="$PROJECT_DIR$/blocks/albums/wtmpm.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/info.jade" afterPath="$PROJECT_DIR$/blocks/info.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blocks/contact.jade" afterPath="$PROJECT_DIR$/blocks/contact.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,54 +15,81 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.jade">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="328">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="env.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blocks/info.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="180">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#header#0;n#section#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#header#0;n#section#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks/contact.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="albums.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/albums.jade">
+      <file leaf-file-name="_hero.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_hero.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.sass">
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="social-share.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/social-share.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-723">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <marker date="1514831191406" expanded="true" signature="712:775" ph="INSERT INTO mail... " />
+                <marker date="1514831191406" expanded="true" signature="712:787" ph="INSERT INTO mail... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,48 +97,28 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="74">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_about.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_about.sass">
+      <file leaf-file-name="_vars.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/1-tools/_vars.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bsime.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/albums/bsime.jade">
+      <file leaf-file-name="_contact.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_contact.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wtmpm.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blocks/albums/wtmpm.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="167" column="98" lean-forward="false" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
+            <state relative-caret-position="176">
+              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -136,30 +136,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon-facebook</find>
-      <find>about</find>
-      <find>.</find>
-      <find>#about</find>
-      <find>#about\b</find>
-      <find>gu</find>
-      <find>.welcome</find>
-      <find>left: 10</find>
-      <find>$letter-muted</find>
-      <find>640px</find>
-      <find>iframe</find>
-      <find>id=</find>
-      <find>class=</find>
       <find>0 0 20px 0</find>
       <find>123132</find>
       <find>hero</find>
       <find>nav-toggle</find>
       <find>left: 90</find>
-      <find>svg</find>
       <find>.icon-instagram</find>
       <find>#909090</find>
-      <find>left: 0</find>
       <find>weight: 100</find>
       <find>weight: bold</find>
+      <find>.camera</find>
+      <find>600px</find>
+      <find>left: 0</find>
+      <find>svg</find>
+      <find>letter</find>
+      <find>42%</find>
+      <find>0 25px</find>
+      <find>scroll</find>
+      <find>.blurb</find>
+      <find>#contact</find>
+      <find>.playlist</find>
+      <find>border</find>
+      <find>770</find>
+      <find>#about</find>
+      <find>768</find>
+      <find>640</find>
+      <find>placehol</find>
+      <find>placeholder</find>
+      <find>.wrapper</find>
+      <find>wrapper</find>
+      <find>fet</find>
     </findStrings>
     <replaceStrings>
       <replace>.playlist</replace>
@@ -179,23 +185,29 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/assets/css/3-modules/_letters.sass" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/blocks/albums.jade" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/assets/css/4-sections/_hero.sass" />
-        <option value="$PROJECT_DIR$/blocks/contact.jade" />
         <option value="$PROJECT_DIR$/blocks/albums/bsime.html" />
-        <option value="$PROJECT_DIR$/assets/css/4-sections/_about.sass" />
         <option value="$PROJECT_DIR$/assets/css/albums.sass" />
-        <option value="$PROJECT_DIR$/assets/js/functions.js" />
         <option value="$PROJECT_DIR$/assets/css/social-share.sass" />
+        <option value="$PROJECT_DIR$/assets/css/3-modules/_letters.sass" />
         <option value="$PROJECT_DIR$/blocks/albums/bsime.jade" />
         <option value="$PROJECT_DIR$/blocks/albums/wtmpm.jade" />
-        <option value="$PROJECT_DIR$/assets/css/main.sass" />
+        <option value="$PROJECT_DIR$/assets/css/4-sections/_contact.sass" />
         <option value="$PROJECT_DIR$/index.jade" />
+        <option value="$PROJECT_DIR$/assets/js/functions.js" />
+        <option value="$PROJECT_DIR$/assets/css/main.sass" />
+        <option value="$PROJECT_DIR$/assets/css/4-sections/_about.sass" />
+        <option value="$PROJECT_DIR$/assets/css/1-tools/_mixins.sass" />
+        <option value="$PROJECT_DIR$/assets/css/4-sections/_hero.sass" />
         <option value="$PROJECT_DIR$/blocks/info.jade" />
+        <option value="$PROJECT_DIR$/assets/css/1-tools/_vars.sass" />
+        <option value="$PROJECT_DIR$/blocks/contact.jade" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="&lt;542c6419-0d59-4ba4-ac4b-94a4af4e5368&gt;/.env" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/env.php" />
+        <option value="$PROJECT_DIR$/mail.php" />
       </list>
     </option>
   </component>
@@ -222,8 +234,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="310" />
-    <option name="y" value="87" />
+    <option name="x" value="317" />
+    <option name="y" value="1082" />
     <option name="width" value="1370" />
     <option name="height" value="735" />
   </component>
@@ -250,53 +262,6 @@
             <path>
               <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
               <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="albums" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="albums" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bsime.jade" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="blocks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="albums" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wtmpm.jade" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="_bsime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_bsime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index.jade" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -334,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gulp.js.Build">
+  <component name="RunManager" selected="Gulp.js.Deploy">
     <configuration name="Build" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>D:/Program Files/nodejs/node</node-interpreter>
       <node-options />
@@ -388,7 +353,7 @@
       <option name="presentableId" value="Default" />
       <updated>1514707802226</updated>
       <workItem from="1514707805227" duration="8924000" />
-      <workItem from="1514753416778" duration="18064000" />
+      <workItem from="1514753416778" duration="31833000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1514795594699</created>
@@ -418,29 +383,70 @@
       <option name="project" value="LOCAL" />
       <updated>1514804868999</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="123">
+      <created>1514812789448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514812789448</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123">
+      <created>1514819898205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514819898205</updated>
+    </task>
+    <task id="LOCAL-00007" summary="123">
+      <created>1514827380287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514827380288</updated>
+    </task>
+    <task id="LOCAL-00008" summary="123">
+      <created>1514828781132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1514828781132</updated>
+    </task>
+    <task id="LOCAL-00009" summary="123">
+      <created>1514829737614</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1514829737614</updated>
+    </task>
+    <task id="LOCAL-00010" summary="123">
+      <created>1514829901442</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1514829901442</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26988000" />
+    <option name="totallyTimeSpent" value="40757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="318" y="1072" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.49783784" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884616" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47685683" sideWeight="0.5043243" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5457481" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50605327" sideWeight="0.5048439" order="5" side_tool="false" content_ui="tabs" x="-309" y="-755" width="1850" height="429" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39346248" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6031128" sideWeight="0.5048439" order="5" side_tool="false" content_ui="tabs" x="-309" y="-755" width="1850" height="429" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6225681" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18864866" sideWeight="0.49515608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26929012" sideWeight="0.49515608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5523466" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294753" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76346153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -563,14 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/1-tools/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
@@ -579,34 +577,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_letters.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-deploy-ftp/lib/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
           <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,22 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/1-tools/_mixins.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_hero.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -674,22 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/contact.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/albums.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="true" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/font-awesome/font-awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -698,75 +640,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/blocks/albums.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="167" column="98" lean-forward="false" selection-start-line="167" selection-start-column="98" selection-end-line="167" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/albums/bsime.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/albums/wtmpm.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_about.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/social-share.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/3-modules/_letters.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/albums/bsime.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/albums/wtmpm.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="330">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="173" column="13" lean-forward="false" selection-start-line="173" selection-start-column="13" selection-end-line="173" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_about.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1158">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/1-tools/_mixins.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_contact.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/4-sections/_hero.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blocks/info.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#header#0;n#section#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#header#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/1-tools/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/contact.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-723">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1514831191406" expanded="true" signature="712:775" ph="INSERT INTO mail... " />
+            <marker date="1514831191406" expanded="true" signature="712:787" ph="INSERT INTO mail... " />
+          </folding>
         </state>
       </provider>
     </entry>
