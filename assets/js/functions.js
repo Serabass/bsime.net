@@ -215,17 +215,20 @@ $(document).ready(function() {
   ];
 
   $('#hello').mouseover(function () {
+    var $this = $(this);
     var interval = setInterval(function () {
       var el = hello[parseInt(hello.length * Math.random())];
-      $('#hello').html(el);
+      var str = 'Say ' + el;
+      $this.html(str);
       return arguments.callee;
     }(), 2000);
-    $(this).data('interval', interval);
+    $this.data('interval', interval);
   })
     .mouseout(function () {
       var interval = $(this)
-        .html(hello[0])
+        .html('Say ' + hello[0])
         .data('interval');
+      debugger;
       clearInterval(interval);
     });
 
