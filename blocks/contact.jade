@@ -7,10 +7,9 @@ section#contact
       p You can also write me a message to&nbsp;
         a.email(href="#")
     form#contact-form(method="POST" action="/mail.php")
-      input(type="email" value="is_everything@mail.ru" name="email" placeholder="your@email.com")
-      input(type="text" value="Subj" name="subject" placeholder="Subject")
+      input(type="email" name="email" placeholder="your@email.com")
+      input(type="text" name="subject" placeholder="Subject")
       textarea(placeholder="Message" name="message")
-        text
       // div(class="g-recaptcha" data-sitekey="6Lc9PD8UAAAAAHjDkjOD6YMX5PvvH26etuszukM_")
       input(type="submit" value="Send Message")
   p.copyright &copy; BSIME 2018
