@@ -1,4 +1,4 @@
-<Files ~ "^(?:.*\.([Hh][Tt][Aa]))|(?:.env)|(?:env.php)$">
+<Files ~ "^(?:.*\.([Hh][Tt][Aa]))|(?:.env)|(?:env.php)|(?:recaptcha_key)$">
 order allow,deny
 deny from all
 satisfy all
